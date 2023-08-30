@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+  }
+  
+  #result {
+    background-color: beige;
+    border: 2px solid black;
+    height: 300px;
+    width: 620px;
+    margin-top: 2px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 2px;
+    margin: 120px auto;
+  }
